@@ -8,10 +8,10 @@ import numpy as np
 img2 = cv2.imread("ucak.jpeg")
 img1 = cv2.imread("turkbayragii.jpg")
 
-# Tusas resminin boyutlarını al
+#  resmin boyutlarını al
 height, width, _ = img1.shape
 
-# Tusas resmini küçült
+#  resmi küçült
 scale_percent = 30  # Küçültme yüzdesi
 new_width = int(width * scale_percent / 100)
 new_height = int(height * scale_percent / 100)
