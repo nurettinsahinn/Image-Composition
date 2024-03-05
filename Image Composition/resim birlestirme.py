@@ -26,7 +26,7 @@ white_mask = cv2.inRange(img1_resized, np.array([240, 240, 240]), np.array([255,
 # Beyaz maskenin tam tersini al
 mask_inv = cv2.bitwise_not(white_mask)
 
-# Tusas resmini sol üst köşeye yerleştir
+# resmi sol üst köşeye yerleştir
 x_offset = 0
 y_offset = 0
 roi = img2[y_offset:y_offset+new_height, x_offset:x_offset+new_width]
